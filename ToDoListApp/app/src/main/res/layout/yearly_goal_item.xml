@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ramotion.foldingcell.FoldingCell
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/folding_cell"
+    android:foreground="?android:selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">        ​
+    <FrameLayout
+        android:id="@+id/cell_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ThirdTextColor"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/item2"
+            android:gravity="center"
+            android:text="MY YEARLY LIST"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/cell_goals_items"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_margin="8dp"
+            android:inputType="textMultiLine"
+            android:text="@string/add_new_task"/>
+    </FrameLayout>
+    ​
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/cell_year_txt"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textColor="@color/primaryTextColor"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="@string/categore_name"
+            android:background="@color/colorPrimary" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_flags"/>
+    </FrameLayout>
+    ​
+</com.ramotion.foldingcell.FoldingCell>
+
+

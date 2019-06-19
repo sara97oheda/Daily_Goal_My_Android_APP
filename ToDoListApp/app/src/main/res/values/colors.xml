@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7E77FB</color>
+    <color name="colorPrimaryDark">#665FE8</color>
+    <color name="colorAccent">#3CC7D4</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#707070</color>
+    <color name="ThirdTextColor">#ffffff</color>
+    <color name="ItemBackGround">#ffeead </color>
+    <color name="backGroundColor">#F6F6F6</color>
+    <color name="priorty">#FA5992</color>
+    <color name="priorty2">#6CC7D4</color>
+    <color name="item1">#FD6787</color>
+    <color name="item2">#6CC7D4</color>
+    <color name="item3">#7E77FB</color>
+    <color name="lightGrayLine">#ededed</color>
+    <color name="dialogBackground">#f5f5f5</color>
+</resources>
